@@ -1,0 +1,32 @@
+# calculator
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>A demonstration of how to access a Number field</h3>
+
+<input type="number" id="myNumber" value="2">
+<h3>+</h3>
+<input type="number" id="myOtherNumber" value="2">
+
+<p>Click the button to add them.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> input elements with type="number" are not supported in IE 9 and earlier versions.</p>
+
+<p id="demo">hello </p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNumber").value;
+  var y = document.getElementById("myOtherNumber").value;
+  var z = (x * 1) + (y * 1 ); 
+
+  document.getElementById("demo").innerHTML = z;
+}
+
+</script>
+
+</body>
+</html>
