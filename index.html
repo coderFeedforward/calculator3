@@ -1,32 +1,25 @@
 # english paper making websight 
 <!DOCTYPE html>
-<html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<meta name = "viewport" content="width = device-width , initial-scale=0.1">
+	<meta http-equiv="X-US-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title> make an essay EZ<title> 
+</head>
 <body>
+	<div class = "contaner">
+		<div> 
+			<input type="text" id = "input-get">
+			<Button id= "btn-get"> GET </Button>
 
-<h3>A demonstration of how to access a Number field</h3>
 
-<input type="number" id="myNumber" value="2">
-<h3>+</h3>
-<input type="number" id="myOtherNumber" value="2">
+		</div>
+		<div id="result"> result </div>
+	</div>
 
-<p>Click the button to add them.</p>
 
-<button onclick="myFunction()">Try it</button>
-
-<p><strong>Note:</strong> input elements with type="number" are not supported in IE 9 and earlier versions.</p>
-
-<p id="demo">hello </p>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myNumber").value;
-  var y = document.getElementById("myOtherNumber").value;
-  var z = (x * 1) + (y * 1 ); 
-
-  document.getElementById("demo").innerHTML = z;
-}
-
-</script>
-
+	<script src = "script.js"></script>
 </body>
 </html>
