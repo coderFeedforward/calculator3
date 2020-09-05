@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+	justify-content: space-evenly;
+
+}
+input,button{
+	height: 40px;
+}
+#result {
+	font-size: 35px;
+	
+}
