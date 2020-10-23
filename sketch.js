@@ -7,7 +7,7 @@ var pic;
 //}
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(1000, 1000);
   background(220);
 
   
