@@ -17,7 +17,7 @@ function draw() {
   angleMode(DEGREES)
   
   translate(200,200);
-  image(pic, 0,0,700,700);
+  image(pic, 0,0,400,400);
   rotate(-50);
   
   
