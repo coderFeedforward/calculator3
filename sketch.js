@@ -41,7 +41,7 @@ function draw() {
 
   
   background(220);
-  image(pic, 0,0,200,200);
+  image(pic, 0,0,700,700);
   //rect(0,0,200,200)
 
   
