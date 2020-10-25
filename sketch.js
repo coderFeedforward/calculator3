@@ -3,7 +3,7 @@ var change = true;
 var a = 0;
 var pic;
 function preload(){
-  pic = loadImage("hand.png");
+  pic = loadImage("hand2.png");
 }
 
 function setup() {
