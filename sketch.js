@@ -27,7 +27,7 @@ function draw() {
   imageMode(CENTER);
   //rectMode(CENTER);
 
-  rotate(95);
+  rotate(85);
   if(count > 100){
     
     a += 1;
